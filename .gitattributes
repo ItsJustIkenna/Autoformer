@@ -1,3 +1,6 @@
 dataset/forex/Preprocessed_EURUSD_Candlestick_1_M_ASKBID_07.07.2020-07.07.2023.csv filter=lfs diff=lfs merge=lfs -text
 dataset/forex/EURUSD_Candlestick_1_M_ASK_07.07.2020-07.07.2023.csv filter=lfs diff=lfs merge=lfs -text
 dataset/forex/EURUSD_Candlestick_1_M_BID_07.07.2020-07.07.2023.csv filter=lfs diff=lfs merge=lfs -text
+checkpoints/Forex_96_96_Autoformer_custom_ftMS_sl96_ll48_pl96_dm512_nh8_el2_dl1_df2048_fc3_ebtimeF_dtTrue_Exp_0/checkpoint.pth filter=lfs diff=lfs merge=lfs -text
+results/Forex_96_96_Autoformer_custom_ftMS_sl96_ll48_pl96_dm512_nh8_el2_dl1_df2048_fc3_ebtimeF_dtTrue_Exp_0/pred.npy filter=lfs diff=lfs merge=lfs -text
+results/Forex_96_96_Autoformer_custom_ftMS_sl96_ll48_pl96_dm512_nh8_el2_dl1_df2048_fc3_ebtimeF_dtTrue_Exp_0/true.npy filter=lfs diff=lfs merge=lfs -text
